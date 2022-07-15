@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@Entity(name="tb_menu")
+@Entity(name="mentb")
 public class MenuVo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
